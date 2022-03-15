@@ -1,0 +1,72 @@
+body{
+	background: #1b2838;
+	zoom: 90%;
+}
+/*carousel*/
+.row-carousel{
+	margin: 20px;
+}
+/*searching*/
+.page-link{
+	background-color: #1d293a;
+	color: #348fda;
+	border:none;
+}
+.page-link:hover{
+	color: white;
+	background-color: #293a52;
+}
+.page-link:focus{
+	color: white;
+	background-color: #293a52;
+}
+.page-link.active{
+	background-color: #20537c;
+	color: white;
+	border: none;
+}
+.pagination{
+	margin: 0;
+}
+.pagelinks-underline{
+	width: 100%;
+	height: 3px;
+	background-color: #20537c;
+}
+.promotions{
+	text-align: right;
+	width: 100%;
+}
+.promotion-image{
+	cursor: pointer;
+	width: 100%;
+}
+.promotion-info-bg{
+	background-color: #a4d6ff;
+	height: 60px;
+	text-align: justify;
+}
+.promotion-info{
+	margin-left: 8px;
+}
+.promotion-percentage{
+	background-color: rgb(80, 126, 7);
+	width: 80px;
+	color: rgb(180, 231, 38);
+	font-size: 30px;
+	font-weight: bold;
+	margin: 8px 0px;
+	padding-left: 3px;
+}
+.promotion-price{
+	background-color: black;
+	width: 80px;
+	color: #a4d6ff;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 8px 0px;
+	padding-left: 9px;
+}
+.promotion-duedate{
+	margin: 17px;
+}

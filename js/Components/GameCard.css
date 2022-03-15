@@ -1,0 +1,37 @@
+.gameCard{
+    display: inline-flex;
+    background-color: rgba( 0, 0, 0, 0.2 );
+    width: 100%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.gameCard:hover{
+    background-color: rgba( 0, 0, 0, 0.5 );
+    transition: 0.2s;
+    cursor:pointer;
+}
+
+.game-info-container {
+    margin-left: 10px;
+    margin-right: auto;
+    align-self: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.game-title{
+    color: rgb(201, 202, 218);
+    font-size: 18px;
+    margin-top: 5px;
+}
+.game-price{
+    color: rgb(161, 162, 175);
+    font-size: 16px;
+    margin-right: 10px;
+}
+.game-genre{
+    color: rgb(118, 119, 131);
+    font-size: 13px;
+    margin-top: 10px;
+}
